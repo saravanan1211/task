@@ -1,0 +1,1344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');   
+
+:root{
+    --color1:#ccffff;
+    --color2:#000066;
+    --color3:#ff471a;
+    --font-family1: "Roboto", sans-serif;
+    --font-family2: "Dancing Script", cursive;
+   --font-family3: "Quicksand", sans-serif;         
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(images/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 10%;
+    margin: 10px;
+
+}
+.navlinks{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin-right: 100px;
+  
+}
+.navlinks li{
+    list-style-type: none;
+   
+}
+.navlinks li a{
+text-decoration: none;
+color: var(--color1);
+font-family: var(--font-family1);
+}
+#check,#checkbtn{
+    display: none;
+    margin-right: 50px;
+}
+.icon{
+    display: flex;
+    color: var(--color1);
+    
+}
+.icon i{
+    padding: 20px;
+
+}
+.fer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    z-index: -2;
+    border: 2px solid red;
+}
+.fer h1{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4.3rem;
+    border: 2px solid red;
+    color: var(--color1);
+
+}
+.fer button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    border: 2px solid red;
+
+}
+.box-2  {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+
+}
+.box-2 h3{
+    font-family: var(--font-family2);
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    border: 2px solid red;
+ 
+}
+.box-2 h1{
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    border: 2px solid red;
+}
+.box-2 p{
+    font-size: 17px;
+    font-family: var(--font-family1);
+    border: 2px solid red;
+}
+
+.box-3{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid red;
+
+}
+.ker{
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    
+}
+.ker h1{
+    font-family: var(--font-family3);
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    opacity: 0.8;
+    border: 2px solid red;
+    
+
+}
+.ker p{
+    width:100%;
+    font-family: var(--font-family1);
+    font-size: 14px;
+    border: 2px solid red;
+   
+}
+.ker a{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: var(--font-family1);
+    text-decoration: underline;
+    border: 2px solid red;
+}
+.box-4{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid red;
+
+}
+#three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    height:auto;
+    border: 2px solid red;
+
+}
+.ter{
+    width: 100%;
+    border: 2px solid red;
+}
+.ter img{
+    width: 90%;
+    border: 2px solid red;
+}
+#four{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    
+    
+}
+.ler{
+    text-align: center;
+    border: 2px solid red;
+}
+.ler h1{
+    font-family: var(--font-family1);
+    font-size:2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 10px;
+    border: 2px solid red;
+}
+.card{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border: 2px solid red;
+
+   
+}
+.card-1{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    border: 2px solid red;
+}
+.card-1 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+    border: 2px solid red;
+
+}
+.card-1 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid red;
+    
+}
+.card-1 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+    border: 2px solid red;
+}
+.card-2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+}
+.card-2 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+    border: 2px solid red;
+
+}
+.card-2 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid red;
+}
+.card-2 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+    border: 2px solid red;
+}
+.card-3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+}
+.card-3 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+    border: 2px solid red;
+
+}
+.card-3 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid red;
+}
+.card-3 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+    border: 2px solid red;
+}
+.card-4{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+}
+.card-4 h5{
+    font-family: var(--font-family1);
+    text-transform: uppercase;
+    margin: 10px;
+    border: 2px solid red;
+
+}
+.card-4 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2px solid red;
+}
+.card-4 span{
+    font-size: 12px;
+    font-family: var(--font-family1);
+    border: 2px solid red;
+}
+#five{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid red;
+  
+}
+.mer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 2px solid red;
+    
+   
+}
+.mer span{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: var(--font-family1);
+    padding: 10px 20px  ;
+    border: 2px solid red;
+    
+}
+.fall{
+    width: 100%;
+    height: auto;
+
+    border: 2px solid red;
+    margin: 20px;
+}
+.fall img{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid red;
+}
+.fall-2 span {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+}
+.fall-1{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    margin: 20px;
+}
+.fall-1 h1{
+    font-family: var(--font-family1);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 10px;
+    border: 2px solid red;
+}
+.fall-1 p{
+    font-size: 17px;
+    font-family: var(--font-family1);
+    margin: 10px;
+    border: 2px solid red;
+}
+.fall-1 span{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family1);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    border: 2px solid red;
+}
+.zero{
+    width: 100%;
+    height:100px;
+    border: 2px solid red;
+
+}
+.zero h1{
+    text-align: center;
+    margin: 40px;
+    text-transform: capitalize;
+    font-family: var(--font-family1);
+    font-size: 2.5rem;
+    font-weight: 400;
+    border: 2px solid red;
+
+}
+.bar{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid red;
+}
+.one{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+    
+}
+.one h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+    border: 2px solid red;
+    
+}
+.one span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+    border: 2px solid red;
+   
+}
+.one h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 2px solid red;
+    
+}
+.one img{
+    width: 250px;
+    height: auto;
+    border: 2px solid red;
+}
+.two{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+   
+}
+.two img{
+    width: 250px;
+    height: auto;
+    border: 2px solid red;
+}
+.two h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 20px;
+    border: 2px solid red;
+}
+.two h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 2px solid red;
+    
+}
+.two span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+    border: 2px solid red;
+   
+}
+.ten{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+   
+}
+.ten img{
+    width: 250px;
+    height: auto;
+    border: 2px solid red;
+}
+.ten h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+    border: 2px solid red;
+}
+.ten h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 2px solid red;
+    
+}
+.ten span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+    border: 2px solid red;
+   
+}
+.per{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+
+    
+}
+
+.per img{
+    width: 250px;
+    height: auto;
+    border: 2px solid red;
+    
+}
+
+.per h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+    border: 2px solid red;
+    
+    
+}
+.per h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 2px solid red;
+    
+}
+.per span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+    border: 2px solid red;
+   
+}
+.one-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+     border: 2px solid red;
+    
+}
+.one-1 h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+    border: 2px solid red;
+}
+.one-1 span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+    border: 2px solid red;
+}
+.one-1 h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 2px solid red;
+    
+}
+.one-1 img{
+    width: 250px;
+    height: auto;
+     border: 2px solid red;
+}
+.two-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+     border: 2px solid red;
+   
+}
+.two-1 img{
+    width: 250px;
+    height: auto;
+     border: 2px solid red;
+
+}
+.two-1 h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 20px;
+    border: 2px solid red;
+}
+.two-1 h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 2px solid red;
+    
+}
+.two-1 span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+    border: 2px solid red;
+   
+}
+.ten-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+     
+   
+}
+.ten-1 img{
+    width: 250px;
+    height: auto;
+     border: 2px solid red;     
+}
+.ten-1 h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+     border: 2px solid red;
+}
+.ten-1 h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+     border: 2px solid red;
+    
+}
+.ten-1 span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+     border: 2px solid red;
+   
+}
+.per-1{
+    width: 100%;
+    height: auto;
+     border: 2px solid red;
+    
+    
+}
+
+
+.per-1 img{
+    width: 250px;
+    height: auto;
+     border: 2px solid red;
+}
+
+.per-1 h1{
+    font-family: var(--font-family1);
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 400;
+     border: 2px solid red;
+    
+}
+.per-1 h5{
+    font-family: var(--font-family1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+     border: 2px solid red;
+}
+.per-1 span{
+    font-family: var(--font-family1);
+    font-size: 16px;
+    border: 2px solid red;
+}
+#seven{
+    width: 100%;
+    height: auto;
+     border: 2px solid red;
+}
+.bar-1{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     border: 2px solid red;
+    
+}
+.flow{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+     border: 2px solid red;
+    
+}
+.flow h1{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-family: var(--font-family3);
+    font-weight: 300;
+     border: 2px solid red;
+}
+.mur{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     border: 2px solid red;
+}
+.mur-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+     border: 2px solid red;
+}
+.mur-2{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+     border: 2px solid red;
+
+}
+.mur-2 h1{
+    text-transform: capitalize;
+    font-family:var(--font-family1);
+    font-size:3rem;
+    font-weight: 300;
+     border: 2px solid red;
+}
+.mur-2 span{
+    font-size: 18px;
+     border: 2px solid red;
+}
+.mur-2 p{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    font-family: var(--font-family1);
+     border: 2px solid red;
+}
+.lat{
+    width: 100%;
+    height:200px;
+    text-align: center;
+    margin-top: 100px;
+    border: 2px solid red;
+   
+}
+.lat h1{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-family: var(--font-family3);
+    font-weight: 300;
+     border: 2px solid red;
+
+}
+.sur{
+    width: 100%;
+    height: auto;
+    display:grid;
+   grid-template-columns: 1fr 1fr;
+    border: 2px solid red;
+   
+}
+.ure{
+    width: 100%;
+    height: auto;
+    text-align: center;
+     border: 2px solid red;
+}
+.ure img{
+    width: 100%;
+    height: auto;
+     border: 2px solid red;
+}
+.gur{
+    width: 100%;
+    height:auto;
+    border: 2px solid red;
+   
+    text-align: center;
+}
+.gur h5{
+    font-style: italic;
+    font-size: 18px;
+    font-family: var(--font-family1);
+    font-weight: 400;
+    margin: 20px;
+     border: 2px solid red;
+
+
+}
+.gur h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    margin: 20px;
+     border: 2px solid red;
+
+
+}
+.gur p{
+    width: 80%;
+     border: 2px solid red;
+    font-size: 20px;
+    font-family: var(--font-family1);
+    margin: 10px;
+}
+.gur button{
+    margin: 20px;
+    background-color: brown;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+     border: 2px solid red;
+   
+}
+.sur-1{
+    width: 100%;
+    height: auto;
+    display:grid;
+   grid-template-columns: 1fr 1fr;
+    border: 2px solid red;
+   
+}
+.gur-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+     border: 2px solid red;
+}
+.gur-1 h5{
+    font-style: italic;
+    font-size: 18px;
+    font-family: var(--font-family1);
+    font-weight: 400;
+    margin: 20px;
+     border: 2px solid red;
+
+
+}
+.gur-1 h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    margin: 20px;
+     border: 2px solid red;
+
+
+}
+.gur-1 p{
+    width: 80%;
+    font-size: 20px;
+    font-family: var(--font-family1);
+    margin: 10px;
+     border: 2px solid red;
+}
+.gur-1 button{
+    margin: 20px;
+    background-color: brown;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+     border: 2px solid red;
+   
+}
+.favicon{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid red;
+  
+}
+#footer{
+    width: 100%;
+    height: auto;
+    background-color:var(--color3);
+     border: 2px solid red;
+}
+.foot{
+    text-align: center;
+    border: 2px solid red;
+}
+.foot h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    color: white;
+    margin: 20px;
+     border: 2px solid red;
+
+    
+}
+.foot p{
+    width: 100%;
+    font-size: 18px;
+    font-family: var(--font-family1);
+    color: white;
+     border: 2px solid red;
+
+}
+.foot input{
+  
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid red;
+   
+
+}
+.last-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+     border: 2px solid red;
+}
+.last-1 h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: var(--font-family3);
+    font-weight: 500;
+    color: white;
+    margin: 20px;
+     border: 2px solid red;
+
+    
+}
+.last-1 i{
+    margin: 20px;
+     border: 2px solid red;
+}
+
+.last-2{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+     border: 2px solid red;
+}
+.last-3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+     border: 2px solid red;
+}
+.last-3 img{
+    width: 50%;
+     border: 2px solid red;
+}
+.last-3 i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 20px;
+     border: 2px solid red;
+}
+.last-4{
+    width: 100%;
+    height: auto;
+    text-align: center;
+     border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+   
+}
+.last-4 h1{
+    margin: 20px;
+     border: 2px solid red;
+
+}
+.last{
+    width: 100%;
+    height:auto ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    border: 2px solid red;
+}
+
+
+
+
+@media (max-width:600px) {
+    #checkbtn{
+        display: block;
+    }
+    #check:checked~.navlinks{
+        display: block;
+    }
+    .navlinks{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        top: 100px;
+        display: none;
+        flex-direction: column;
+
+    }
+    .navlinks li{
+        text-align: center;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: var(--color2);
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        display: none;
+
+    }
+    .favicon img{
+        width: 50%;
+    }
+    .container{
+        width: auto;
+        height: auto;
+    }
+    .fer{
+        height: auto;
+    }
+    .fer h1{
+        font-size: 2rem;
+        
+    }
+    #three{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .box-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .ker h1{
+        font-size: 2rem;
+    }
+    .card{
+        text-align: center;
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+      
+    }
+    #five{
+        width: auto;
+        height: auto;
+        display: grid;
+       
+        grid-template-columns: 1fr;
+      
+      
+    }
+    .mer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+       
+       
+    }
+   
+    .fall img{
+       
+        height: auto;
+        margin-left: auto;
+       
+    }
+    .bar{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bar-1{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .mur{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mur-2{
+        width: auto;
+        height: auto;
+        margin-left:auto;
+      
+    
+ 
+    }
+    .last{
+        width: auto;
+        height:auto ;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+   
+      
+  
+    .mur-2 p{
+        text-align: center;
+      
+    }
+    .sur{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+    .sur-1{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur-1{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+   
+   
+    
+    }
+    
+
+@media (max-width:768px) {
+    #checkbtn{
+        display: block;
+    }
+    #check:checked~.navlinks{
+        display: block;
+    }
+    .navlinks{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        top: 100px;
+        display: none;
+        flex-direction: column;
+
+    }
+    .navlinks li{
+        text-align: center;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: var(--color2);
+    }
+    .favicon img{
+        width: 50%;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        display: none;
+
+    }
+    .container{
+        width: auto;
+        height: auto;
+    }
+    .fer{
+        height: auto;
+    }
+    .fer h1{
+        font-size: 2rem;
+        
+    }
+    #three{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .box-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .ker h1{
+        font-size: 2rem;
+    }
+    .card{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+      
+    }
+    #five{
+        width: auto;
+        height: auto;
+        display: grid;
+       
+        grid-template-columns: 1fr;
+      
+      
+    }
+    .mer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+       
+       
+    }
+    .last{
+        width: auto;
+        height:auto ;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+   
+    .fall img{
+       
+        height: auto;
+        margin-left: auto;
+       
+    }
+    .bar{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mur{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mur-2{
+        width: auto;
+        height: auto;
+        margin-left:auto;
+      
+    
+ 
+    }
+    .bar-1{
+        width:auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+   
+      
+  
+    .mur-2 p{
+        text-align: center;
+      
+    }
+    .sur{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+    .sur-1{
+        width: auto;
+        height: auto;
+        display:grid;
+       grid-template-columns: 1fr;
+       
+    }
+    .gur-1{
+        width: 100%;
+        height:auto;
+        margin-left:auto;
+        text-align: center;
+    }
+    
+}
